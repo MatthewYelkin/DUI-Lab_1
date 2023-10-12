@@ -68,7 +68,7 @@ header{
     background-color: #fff;
 }
 nav{
-    margin-top: 54px;
+    margin-top: 52px;
     margin-left: 248px;
     display: flex;
 }
@@ -80,10 +80,19 @@ nav a{
     margin-right: 130px;
 }
 .signIn{
-    margin-top: 54px;
-    height: 33px;
-    width: 97px;
+    display: flex;
+    margin-top: 48px;
+    margin-left: 33px;
+    height: 31px;
+    width: 96px;
     background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.signIn p{
+    font-family: Oswald;
+    font-weight: 500;
+    word-spacing: 2px;
 }
 a{
     text-decoration: none;

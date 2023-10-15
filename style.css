@@ -43,6 +43,9 @@ body{
     background-color: #181818;
     color:#fff;
 }
+
+/* ------------------------------HEADER---------------------------------- */
+
 header{
     font-family: Oswald;
     display: flex;
@@ -117,6 +120,9 @@ nav a:nth-child(3){
     width: 51px;
     cursor: pointer;
 }
+
+/* -----------------------------MAIN---------------------------------- */
+
 .home{
     display: flex;
     justify-content: center;
@@ -324,16 +330,73 @@ nav a:nth-child(3){
     width: 1440px;
     background-color: #151515;
 }
-.home_bottom_center_container{
+.home_bottom_inner_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #181818;
     height: 219px;
     width: 100%;
     align-self: center;
     z-index: 2;
 }
-.second{
-    height: 300px;
+.home_bottom_inner_container_text_with_number{
+    display: flex;
+    width: 260px;
+    height: 60px;
+    margin-top: -4px
+}
+.home_bottom_inner_container_number{
+    display: flex;
+    letter-spacing: 1px;
+    font-family: Oswald;
+    font-size: 49px;
+    font-weight: 500;
+}
+.home_bottom_inner_container_number span{
+    color: #a460f9;
+}
+.home_bottom_inner_container_text{
+    align-self: flex-end;
+    font-family: Krub;
+    font-weight: 400;
+    margin-bottom: -4px;
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    line-height: 26px;
+}
+.home_bottom_inner_container_text span{
+    font-weight: 700;
+}
+.home_bottom_inner_container div:first-child{
+    margin-left: 41px;
+}
+.home_bottom_inner_container div:first-child .home_bottom_inner_container_text{
+    margin-left: 21px;
+}
+.home_bottom_inner_container div:nth-child(2) .home_bottom_inner_container_number{
+    margin-left: 3px;
+}
+.home_bottom_inner_container div:nth-child(2) .home_bottom_inner_container_text{
+    margin-left: 17px;
+}
+.home_bottom_inner_container div:last-child .home_bottom_inner_container_number{
+    margin-left: -1.7px;
+}
+.home_bottom_inner_container div:last-child .home_bottom_inner_container_text{
+    margin-left: 9px;
 }
 
+/* -----------------------------SECOND BLOCK (ACCEPT NEW CHALLENGES)---------------------------------- */
+
+.second_block{
+    height: 790px;
+}
+
+/* -----------------------------THIRD BLOCK (FIND YOUR COURSE)---------------------------------------- */
+
+.third_block{
+    height: 826px;
+}
 
 

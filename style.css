@@ -39,66 +39,364 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    width: 1440px;
+    background-color: #181818;
+    color:#fff;
 }
+
+/* ------------------------------HEADER---------------------------------- */
+
 header{
-    width: 100%;
+    font-family: Oswald;
     display: flex;
+    justify-content: center;
+    height: 143px;
+}
+.header_container{
+    width: 1326px;
+    display: flex;
+    justify-content: space-between;
 }
 .header_logo {
     width: 128px;
-    height: 18px;
-    margin-top: 54px;
-    margin-left: 57px;
+    height: 32px;
+    margin-top: 46px;
+    padding: auto;
     display: flex;
+    align-items: center;
     cursor: pointer;
 }
 .header_logo_text {
     margin-left: 9px;
-    margin-top: -8px;
-    color: #fff;
-    font-family: Oswald;
     font-weight: 600;
     font-size: 21px;
     word-spacing: 3px;
 }
 .square{
-    height: 17px;
+    height: 18px;
     width: 18px;
     background-color: #fff;
 }
 nav{
-    margin-top: 52px;
-    margin-left: 248px;
+    width: 570px;
+    margin: 52px 0 0 93px;
     display: flex;
+    justify-content: space-between;
 }
 nav a{
-    font-family: Oswald;
     font-weight: 600;
     color:#fff;
     font-size: 16px;
-    margin-right: 130px;
+    height: 30px;
+    text-decoration: none;
+}
+nav a:nth-child(2){
+    padding-right: 3px;
+}
+nav a:nth-child(3){
+    padding-right: 9px;
+}
+.header_right_container{
+    width: 224px;
+    display: flex;
+    justify-content: space-between;
 }
 .signIn{
     display: flex;
     margin-top: 48px;
-    margin-left: 33px;
     height: 31px;
     width: 96px;
     background-color: #fff;
+    color: #000;
     justify-content: center;
     align-items: center;
-}
-.signIn p{
-    font-family: Oswald;
     font-weight: 500;
     word-spacing: 2px;
+    cursor: pointer;
 }
-a{
-    text-decoration: none;
+.lines{
+    margin-top: 52px;
+    height: 25px;
+    width: 51px;
+    cursor: pointer;
 }
-footer{
-    height: 200px;
-    margin-top: 40px;
-    background-color: purple;
+
+/* -----------------------------MAIN---------------------------------- */
+
+.home{
+    display: flex;
+    justify-content: center;
+    height: 898px;
 }
+.home_container{
+    width: 1326px;
+    display: flex;
+}
+.home_left_container{
+    height: 660px;
+    width: 393px;
+    font-family: Krub;
+    display: flex;
+    flex-direction: column;
+}
+.home_left_container>p{
+    margin: 61px 0 0 -7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 132px;
+}
+.home_left_container>p span{
+    color: #a460f9;
+}
+.home_left_container>div{
+    display: flex;
+    align-items: center;
+}
+.home_left_container>div>p:first-child{
+    margin: 9px 0 0 -8px;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    font-weight: 400;
+    font-size: 43px;
+    letter-spacing: 4.5px;
+}
+.home_left_container>div p:first-child span{
+    font-weight: 600;
+}
+.home_left_container>div>div{
+    flex: content;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    height: 48px;
+}
+.home_left_container div div div{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+.home_left_container div div div .square{
+    margin-top: 7px;
+    margin-left: 1px;
+    height: 12px;
+    width: 12px;
+}
+.home_left_container div div div p{
+    font-weight: 700;
+    font-size: 14.5px;
+    padding-right: 7px;
+    word-spacing: 4px;
+    line-height: 25px;
+}
+.left_arrow{
+    width: 60px;
+    height: 23px;
+    background-image: url(media/left_arrow.png);
+    cursor: pointer;
+}
+.home_left_container .left_arrow{
+    align-self: flex-end;
+    margin-top: 70px;
+    padding-right: 1px;
+}
+
+.home_center_container{
+    width: 544px;
+    height: 662px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_center_container .circle{
+    position: absolute;
+    width: 375.75px;
+    height: 375.75px;
+    background-color: #a460f9;
+    border-radius: 50%;
+    margin: 65px 27px 0 0;
+}
+.home_center_container img{
+    z-index: 1;
+    margin-top: 87px;
+    margin-right: 64px;
+}
+.home_right_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Krub;
+    width: 390px;
+    height: 662px;
+}
+.home_right_insert{
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-right: none;
+    position: relative;
+    align-self: flex-end;
+    top: 26px;
+    left: 57.4px;
+    width: 177px;
+    height: 101px;
+}
+.home_right_insert p{
+    font-weight: 700;
+    font-size: 17px;
+    margin: 18px 0 0 35.2px;
+    letter-spacing: 3.5px;
+    line-height: 28px;
+}
+.home_right_insert p span{
+    font-size: 29px;
+    letter-spacing: 6px;
+}
+.home_right_container div:nth-child(2){
+    width: 293px;
+    height: 104px;
+    font-weight: 600;
+    padding: 0 13px 0 13px;
+}
+.home_right_container div:nth-child(2) p:first-child{
+    font-size: 18px;
+    margin-top: -8px;
+    word-spacing: 1.4px;
+    letter-spacing: 1.7px;
+    line-height: 28px;
+}
+.home_right_container div:nth-child(2) p:last-child{
+    margin-top: 14px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    word-spacing: -0.5px;
+    line-height: 26px;
+}
+.right_arrow{
+    width: 60px;
+    height: 23px;
+    background-image: url(media/right_arrow.png);
+    cursor: pointer;
+}
+.home_right_container div:nth-child(2) p:last-child span{
+    word-spacing: 5.2px;
+}
+#home_right_container_last_sentence{
+    word-spacing: -0.5px;
+}
+.home_right_container_buttons{
+    position: relative;
+    width: 260px;
+    height: 50px;
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 14.6px;
+    display: flex;
+    top: -20px;
+    left: 12px;
+}
+#home_button_lets_start
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 47px;
+    background-color: #a460f9;
+    cursor: pointer;
+}
+#home_button_read_more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 47px;
+    padding: 0;
+    cursor: pointer;
+}
+#home_button_lets_start p{
+    margin-bottom: 2px;
+    letter-spacing: 1px;
+}
+#home_button_read_more p{
+    margin: 3px 0 0 2.3px;
+    letter-spacing: 1px;
+}
+.home_bottom_container{
+    display: flex;
+    position: absolute;
+    align-self: end;
+    left: 0;
+    height: 251px;
+    width: 1440px;
+    background-color: #151515;
+}
+.home_bottom_inner_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #181818;
+    height: 219px;
+    width: 100%;
+    align-self: center;
+    z-index: 2;
+}
+.home_bottom_inner_container_text_with_number{
+    display: flex;
+    width: 260px;
+    height: 60px;
+    margin-top: -4px
+}
+.home_bottom_inner_container_number{
+    display: flex;
+    letter-spacing: 1px;
+    font-family: Oswald;
+    font-size: 49px;
+    font-weight: 500;
+}
+.home_bottom_inner_container_number span{
+    color: #a460f9;
+}
+.home_bottom_inner_container_text{
+    align-self: flex-end;
+    font-family: Krub;
+    font-weight: 400;
+    margin-bottom: -4px;
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    line-height: 26px;
+}
+.home_bottom_inner_container_text span{
+    font-weight: 700;
+}
+.home_bottom_inner_container div:first-child{
+    margin-left: 41px;
+}
+.home_bottom_inner_container div:first-child .home_bottom_inner_container_text{
+    margin-left: 21px;
+}
+.home_bottom_inner_container div:nth-child(2) .home_bottom_inner_container_number{
+    margin-left: 3px;
+}
+.home_bottom_inner_container div:nth-child(2) .home_bottom_inner_container_text{
+    margin-left: 17px;
+}
+.home_bottom_inner_container div:last-child .home_bottom_inner_container_number{
+    margin-left: -1.7px;
+}
+.home_bottom_inner_container div:last-child .home_bottom_inner_container_text{
+    margin-left: 9px;
+}
+
+/* -----------------------------SECOND BLOCK (ACCEPT NEW CHALLENGES)---------------------------------- */
+
+.second_block{
+    height: 790px;
+}
+
+/* -----------------------------THIRD BLOCK (FIND YOUR COURSE)---------------------------------------- */
+
+.third_block{
+    height: 826px;
+}
+
+

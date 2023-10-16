@@ -400,20 +400,23 @@ nav a:nth-child(3){
 }
 
 
+/* -----------------------------------FOURTH BLOCK ----------------------------------------------------------*/
 
+
+.fourth_block{
+    height: 1095px;
+}
 
 .intro4_text{
     width: 100%;
-    height: 100vh;
     color: #fff;
     background-color: black;
     background-size: cover;
-    margin-bottom: 40px;
+    margin-bottom: 1px;
 }
 
 .intro4_in{
     display:flex;
-    margin-top:-22px;
 }
 
 .intro4_title{
@@ -439,7 +442,6 @@ nav a:nth-child(3){
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 182%;
 }
 
 .intro4_subtitle_text{
@@ -450,7 +452,7 @@ nav a:nth-child(3){
     margin-top: 22px;
     font-size:15px;
     line-height: 170%;
-    font-weight: 1000;
+    font-weight: 700;
     letter-spacing: .3px;
 }
 

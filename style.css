@@ -1,5 +1,11 @@
 @font-face {
     font-family: Krub;
+    src: url(fonts/Krub/Krub-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Krub;
     src: url(fonts/Krub/Krub-Regular.ttf);
     font-weight: 400;
     font-style: normal;
@@ -161,7 +167,7 @@ nav a:nth-child(3){
     letter-spacing: 4.5px;
 }
 .home_left_container>div p:first-child span{
-    font-weight: 600;
+    font-weight: 700;
 }
 .home_left_container>div>div{
     flex: content;
@@ -177,7 +183,7 @@ nav a:nth-child(3){
 }
 .home_left_container div div div .square{
     margin-top: 7px;
-    margin-left: 1px;
+    margin-left: 1.7px;
     height: 12px;
     width: 12px;
 }
@@ -390,13 +396,137 @@ nav a:nth-child(3){
 /* -----------------------------SECOND BLOCK (ACCEPT NEW CHALLENGES)---------------------------------- */
 
 .second_block{
-    height: 790px;
+    height: 747px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Krub;
+    font-weight: 700;
 }
-
+.second_block_container{
+    height: 615px;
+    width: 1326px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.second_block_left_container{
+    height: 500px;
+    width: 130px;
+}
+.second_block_side_text{
+    display: flex;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    margin: 1px 0 0 -5px;
+}
+.second_block_side_text .square{
+    height: 12px;
+    width: 12px;
+    align-self: center;
+    margin-right: 3px;
+}
+.second_block_side_text_text{
+    margin-top: 23px;
+    letter-spacing: 0.6px;
+    word-spacing: -0.3px;
+}
+.second_block_middle_container{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second_block_middle_container>div{
+    display: flex;
+    position: absolute;
+}
+.second_block .circle{
+    z-index: 1;
+    position: absolute;
+    background-color: #a460f9;
+    height: 21.5px;
+    width: 21.5px;
+    border-radius: 50%;
+}
+.second_block_middle_container>div .circle:first-child{
+    top: 9px;
+    left: 50px;
+}
+.second_block_middle_container>div .circle:last-child{
+    align-self: self-end;
+    margin-bottom: 34px;
+    right: 75px;
+}
+.second_block_ellipse{
+    margin-top: -7px;
+    width: 884px;
+    height: 223px;
+    border-radius: 442px/111.5px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    rotate: 21deg;
+}
+.second_block_middle_text{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 86px;
+    margin: 38px 0 0 4px;
+    line-height: 100px;
+    letter-spacing: 5px;
+}
+.second_block_middle_text span{
+    font-weight: 300;
+}
+.second_block_right_container{
+    display: flex;
+    justify-content: end;
+    height: 500px;
+    width: 130px;
+}
+.second_block_right_container .second_block_side_text{
+    transform: none;
+    margin: 2px -5px 0 0px;
+}
+.second_block_right_container .second_block_side_text_text{
+    margin-top: 25px;
+}
+.second_block_right_container .square{
+    margin-left: -2px;
+}
+.second_block_bottom_container{
+    color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1326px;
+    height: 132px;
+    font-size: 50px;
+    letter-spacing: 2.9px;
+    user-select: none;
+}
+.down_arrow{
+    width: 30px;
+    height: 75px;
+    background-image: url(media/down_arrow.png);
+    cursor: pointer;
+}
+.second_block_bottom_container p:first-child{
+    margin: 0 0 36px -0.9px;
+}
+.second_block_bottom_container p:last-child{
+    margin: 0 -1px 36px;
+}
+.second_block_bottom_container .down_arrow{
+    margin: 3px 55px 0 0;
+}
 /* -----------------------------THIRD BLOCK (FIND YOUR COURSE)---------------------------------------- */
 
 .third_block{
-    height: 826px;
+    height: 869px;
 }
 
 

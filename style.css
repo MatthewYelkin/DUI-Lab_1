@@ -102,3 +102,91 @@ footer{
     margin-top: 40px;
     background-color: purple;
 }
+
+.intro4_text{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: black;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.intro4_in{
+    display:flex;
+    margin-top:-22px;
+}
+
+.intro4_title{
+    font-weight: bold;
+    font-size:63px;
+    font-family:'Krub',bold;
+    margin-left: 68px;
+   
+    letter-spacing: 1px;
+
+}
+
+.intro4_title2{
+    font-weight:500;
+    font-size:62px;
+    font-family: 'Krub';
+    margin-left: 15px;
+    letter-spacing: 8px;
+    color:#aa84f9;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 182%;
+}
+
+.intro4_subtitle_text{
+    font-family: 'Krub';
+    width: 100%;
+    max-width: 400px;
+    margin-left: 68px;
+    margin-top: 22px;
+    font-size:15px;
+    line-height: 170%;
+    font-weight: 1000;
+    letter-spacing: .3px;
+}
+
+.intro4_readbutton{
+    display: flex;
+    margin-top: 18.5%;
+    margin-left: 68px;
+    height: 50px;
+    width: 126px;
+    background-color: #aa84f9;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+
+}
+.intro4_readbutton p{
+    font-family: 'Oswald', bold;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.baloon{
+    margin-right: auto;
+    color: #aa84f9;
+    width: 10%; /* поддерживаются любые единицы, в том числе проценты */
+    margin: 0 auto;
+    background: black;
+    border-radius: 50%;
+}
+
+.baloon::before {
+    display: inline-block;
+    content: "";
+    vertical-align: middle;
+    padding-top: 100%;
+}
+
+/* dsdvsdvs */

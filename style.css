@@ -17,7 +17,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: Krub;
+    font-family: Krub-SemiBold;
     src: url(fonts/Krub/Krub-SemiBold.ttf);
     font-weight: 600;
     font-style: normal;
@@ -529,4 +529,95 @@ nav a:nth-child(3){
     height: 869px;
 }
 
+/* -----------------------------SIXTH BLOCK---------------------------------------- */
 
+.sixth_container{
+    display: flex;
+    max-width: 1346px;
+    height: 604px;
+    margin-left: 45px;
+    margin-top: 2009px;
+    justify-content: space-between;
+}
+
+.left_section{
+    box-sizing: border-box;
+    height: 604px;
+    padding-top:73px;
+    padding-left: 5px;
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right_section{
+    box-sizing: border-box;
+    height: 604px;
+    padding-top:95px;
+    margin-left: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;    
+}
+.right_section .arrow_down_6_block{
+    cursor: pointer;
+    transform: rotate(180deg);
+    margin-top: 28px;
+    margin-right: 13px;
+}
+.right_section .rotated-text {
+    text-align: start;
+}
+.rotated-text{
+    text-align: end;
+    font-family: "Krub";
+    color: rgb(241, 241, 241);
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+}
+
+.arrow_down_6_block{
+    cursor: pointer;
+    margin-bottom: 23px;
+    margin-left: 15px;
+}
+
+.middle_section {
+    cursor: pointer;
+}
+
+.man {
+    position: relative;
+    display: inline-block;
+}
+
+.man img {
+    max-width: 100%;
+}
+
+.video-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.man:hover .video-overlay {
+    display: block;
+}
+
+.video-overlay video {
+    width: 100%;
+    height: 100%;
+}

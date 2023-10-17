@@ -246,14 +246,14 @@ nav a:nth-child(3){
     width: 177px;
     height: 101px;
 }
-.home_right_insert p{
+.insert_p_edition{
     font-weight: 700;
     font-size: 17px;
     margin: 18px 0 0 35.2px;
     letter-spacing: 3.5px;
     line-height: 28px;
 }
-.home_right_insert p span{
+.insert_span_2022{
     font-size: 29px;
     letter-spacing: 6px;
 }
@@ -396,7 +396,7 @@ nav a:nth-child(3){
 /* -----------------------------SECOND BLOCK (ACCEPT NEW CHALLENGES)---------------------------------- */
 
 .second_block{
-    height: 747px;
+    height: 820px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -526,7 +526,174 @@ nav a:nth-child(3){
 /* -----------------------------THIRD BLOCK (FIND YOUR COURSE)---------------------------------------- */
 
 .third_block{
+    display: flex;
     height: 869px;
+    justify-content: center;
 }
-
+.third_block_container{
+    width: 1326px;
+}
+.third_block_top_container{
+    height: 230px;
+    display: flex;
+    font-family: Krub;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+}
+.third_block_top_container p:first-child{
+    margin-top: -1px;
+    margin-left: -7px;
+    font-size: 115px;
+    letter-spacing: 3.3px; 
+}
+.third_block_top_container p:first-child span{
+    font-size: 38px;
+    font-weight: 400;
+    padding-left: 12px;
+    letter-spacing: 3.9px;
+}
+.third_block_top_container>div{
+    display: flex;
+    margin: 43px -5px 0;
+}
+.third_block_top_container .square{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    align-self: center;
+    margin-bottom: 15px;
+}
+.third_block_top_container .insert_p_edition{
+    margin-left: 19px;
+}
+.third_block_middle_container{
+    height: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course_box{
+    height: 369px;
+    width: 284.8px;
+    border-width: 3px;
+    border-color: #fff;
+    border-style: solid;
+    font-family: Krub;
+    font-weight: 600;
+    margin-top: -1px;
+}
+.course_box_top{
+    height: 43px;
+}
+.course_box_top .square{
+    height: 43px;
+    width: 42.5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course_box_top .square p{
+    font-weight: 700;
+    color: #181818;
+    font-size: 21px;
+    margin-right: 6.5px;
+    margin-bottom: 3px;
+    letter-spacing: 0.4px;
+}
+.course_box_middle{
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.course_box_middle p:first-child{
+    margin: 30.5px 0 0 2px;
+    font-size: 33px;
+    letter-spacing: 2.1px;
+}
+.course_box_middle p:first-child span{
+    color: #aa84f9;
+}
+hr{
+    width: 52px;
+    border-width: 1.1px;
+    margin: 15.8px 0 16.5px;
+    border-radius: 30px;
+    color: #aa84f9;
+    background-color: #aa84f9;
+    border-color: #aa84f9;
+}
+.course_box_middle p:last-child{
+    width: 208px;
+    height: 100px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    line-height: 26.7px;
+    text-align: justify;
+    text-align-last: center;
+}
+.course_box_bottom{
+    height: 81px;
+    display: flex;
+    justify-content: center;
+}
+.course_box_bottom a{
+    display: inline-block;
+    text-decoration: none;
+}
+.course_box_bottom a>div{
+    margin-left: -1px;
+    height: 47.2px;
+    width: 126px;
+    background-color: #a460f9;
+    color: #fff;
+    font-size: 14px;
+    font-family: Oswald;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course_box_bottom a>div p{
+    margin-top: -2px;
+    letter-spacing: 1px;
+}
+.third_block_middle_container .course_box:first-child{
+    margin-left: -1px;
+}
+.third_block_middle_container .course_box:nth-child(2){
+    margin-left: 17px;
+}
+.third_block_middle_container .course_box:nth-child(2) .course_box_middle p:first-child{
+    margin-left: 5px;
+}
+.third_block_middle_container .course_box:nth-child(3){
+    margin-right: 12px;
+}
+.third_block_middle_container .course_box:nth-child(3) .course_box_middle p:first-child{
+    margin-left: 6px;
+}
+.third_block_middle_container .course_box:last-child .course_box_middle p:first-child{
+    margin-left: 5px;
+}
+.third_block_bottom_container{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third_block_bottom_container p{
+    font-family: Krub;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 60px 13px -44px;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+}
+.third_block_bottom_container img{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
 

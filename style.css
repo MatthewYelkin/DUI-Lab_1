@@ -1024,6 +1024,17 @@ hr{
 .five_container_left{
     width:800px ;
     height:830px;
+    display: inline-block;
+
+
+}
+
+.five_container_left_bottom{
+    display: flex;
+    height: 780px;
+    justify-content: center;
+    align-content: flex-start;
+
 
 }
 
@@ -1040,6 +1051,13 @@ hr{
    
 
 }
+
+.five_container_left_top{
+    width: 800px ;
+    height:50px;
+
+}
+
 
 .five_container_right_middle{
     width: 640px ;
@@ -1077,16 +1095,16 @@ hr{
 .intro5_in{
     display:flex;
     margin-left:57px;
-    margin-top: 56px;
+    margin-top: 60px;
     letter-spacing: .8px;
 }
 
 .intro5_title{
     font-weight: bold;
-    font-size:63px;
+    font-size:60px;
     font-family:'Krub',bold;
     margin-left: 23px;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
 .intro5_title2{
@@ -1102,10 +1120,11 @@ hr{
     font-family: 'Krub';
     max-width: 380px;
     margin-left: 80px;
-    margin-top: 24px;
+    margin-top: 22px;
     font-size:15px;
     line-height: 165%;
-    font-weight: 550;
+    font-weight: 548;
+    word-spacing: .09px;
     letter-spacing: .2px;
     text-align: justify;
 }
@@ -1116,7 +1135,7 @@ hr{
     margin-left: 80px;
     height: 50px;
     width: 126px;
-    margin-top: 40px;
+    margin-top: 41px;
     background-color: #aa84f9;
     color:#fff;
     justify-content: center;
@@ -1151,7 +1170,7 @@ hr{
     right: 51px;
 }
 .ellipse_big{
-    margin-top: 221px;
+
     width: 767px;
     height: 179px;
     border-radius: 442px/128.5px;
@@ -1159,24 +1178,50 @@ hr{
     border-style: solid;
     border-width: 1px;
     rotate: 149deg;
+    position: relative;
+    z-index: 0;
+    align-self: center;
+    margin-bottom: 260px;
+}
+
+.big_ball5{
+    position: absolute;
+    width: 395.38px;
+    height: 395.44px;
+    background-color: #a460f9;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: 81px;
+    margin-right: 24px;
+    
+}
+
+.big_boy5{
+    position: absolute;
+    z-index: 2;
+    margin-top: 9px;
+    margin-left: 49px;
+    
 }
 
 
 .fifth_block_side_text{
+    width: 100px;
     display: flex;
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
-    margin: 1px 0 0 -5px;
+    overflow-x: hidden;
 }
 
 .fifth_block_side_text_text{
     font-family: 'Krub';
     font-weight: 700;
     font-size: 600%;
-    margin-bottom: 0px;
-    letter-spacing: 11px;
+    margin-bottom: 5px;
+    letter-spacing: 10px;
     color: #252525;
-    margin-left: 40px;
+    margin-left: -42px;
+    
 
 }
 

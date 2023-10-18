@@ -12,6 +12,12 @@
 }
 @font-face {
     font-family: Krub;
+    src: url(fonts/Krub/Krub-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Krub;
     src: url(fonts/Krub/Krub-Bold.ttf);
     font-weight: 700;
     font-style: normal;
@@ -643,7 +649,7 @@ header nav a:nth-child(3){
 .course_box_middle p:first-child span{
     color: #aa84f9;
 }
-hr{
+.course_box hr{
     width: 52px;
     border-width: 1.1px;
     margin: 15.8px 0 16.5px;
@@ -736,16 +742,86 @@ footer{
     height: 741px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-family: Krub;
 }
 .footer_container{
     width: 1326px;
+    height: 486px;
     display: flex;
 }
 .footer_left_container{
     width: 338px;
+    display: flex;
+    align-items: center;
+}
+.footer_links{
+    margin-top: 48px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_links_title{
+    width: 117px;
+    text-align: justify;
+    margin-bottom: 18px;
+}
+.footer_links_title p{
+    width: 120px;
+    margin-left: 1.5px;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+.footer_links_title p span{
+    padding-left: 3px;
+}
+.footer_links_title hr{
+    margin-top: 5.5px;
+    margin-bottom: 9px;
+}
+.footer_links a{
+    color: #fff;
+    height: 42px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 2px 0 0 1px;
+}
+.footer_links a:nth-child(2){
+   margin-top: 0px;
+}
+.footer_links a:nth-child(3){
+    
+}
+.footer_links a:nth-child(4){
+    
+}
+.footer_links a:nth-child(5){
+    
+}
+.footer_links a:last-child{
+    
 }
 .footer_middle_container{
     width: 335px;
+    display: flex;
+    align-items: center;
+}
+.footer_middle_container .footer_links_title{
+    width: 213px;
+}
+.footer_middle_container .footer_links_title p{
+    width: 218px;
+    letter-spacing: 4px;
+    margin-left: 0.5px;
+}
+.footer_middle_container .footer_links a:nth-child(4){
+    letter-spacing: 2px;
+    word-spacing: -3px;
+}
+.footer_middle_container .footer_links a:nth-child(5){
+    letter-spacing: 1.5px;
 }
 .footer_right_container{
     width: 653px;

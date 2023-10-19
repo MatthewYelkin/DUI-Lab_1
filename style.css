@@ -529,4 +529,67 @@ nav a:nth-child(3){
     height: 869px;
 }
 
+.eight_block{
+    margin-top: 3565px;
+    height: 1036px;
+    width: 1440px;
+    display: flex;
+    justify-content: end;
+}
+.eight_block img{
+    margin-top: 33px;
+    height: 1003px;
+    position: absolute;
+    left: -360px;
+}
 
+.eight_block_right_container{
+    z-index: 1;
+    margin-right: 70px;
+    height: 956px;
+    width: 664px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.subscribe_text{
+    color: #fff;
+    width: 664px;
+    height: 250px;
+    font-family: Krub;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_subscribe{
+    font-size: 46.7px;
+    letter-spacing: 1.55px;
+    font-weight: 700;
+    margin-top: 30.5px;
+    margin-left: 13px;
+}
+
+.item_second_text{
+    font-size: 45px;
+    letter-spacing: 5.2px;
+    font-weight: 400;
+    margin-left: 18px;
+    margin-top: -0.9px;
+    color: #a460f9;
+}
+
+.item_to_lorem{
+    margin-top: 16px;
+    letter-spacing: 0.58px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.item_sed{
+    margin-top: 7.5px;
+    font-weight: 600;
+    letter-spacing: 0.57px;
+    margin-left: 10.5px;
+}

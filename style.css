@@ -667,7 +667,7 @@ header nav a:nth-child(3){
     border-color: #aa84f9;
 }
 .course_box_middle p:last-child{
-    width: 208px;
+    width: 209px;
     height: 100px;
     font-size: 14px;
     letter-spacing: 0.6px;
@@ -815,7 +815,7 @@ header nav a:nth-child(3){
 
 .intro4_subtitle_text{
     font-family: 'Krub';
-    max-width: 380px;
+    max-width: 381px;
     margin-left: 25px;
     text-align: justify;
     margin-top: 22px;
@@ -1033,7 +1033,11 @@ header nav a:nth-child(3){
     justify-content: end;
 }
 
-
+.container_high_left_images{
+    display: flex;
+    height: 235px;
+    width: 720px;
+}
 
 /* ----------------------------- FIFTH BLOCK ---------------------------------- */
 
@@ -1048,8 +1052,6 @@ header nav a:nth-child(3){
     width:800px ;
     height:830px;
     display: inline-block;
-
-
 }
 
 .five_container_left_bottom{
@@ -1057,28 +1059,22 @@ header nav a:nth-child(3){
     height: 780px;
     justify-content: center;
     align-content: flex-start;
-
-
 }
 
 .five_container_right{
     width:640px ;
     height:830px;
     display:inline-block
-
 }
 
 .five_container_right_top{
     width: 640px ;
     height:100px;
-   
-
 }
 
 .five_container_left_top{
     width: 800px ;
     height:50px;
-
 }
 
 
@@ -1086,21 +1082,16 @@ header nav a:nth-child(3){
     width: 640px ;
     height:580px;
     display: flex;
-
 }
 
 .five_container_right_middle_left{
     width: 540px;
     height:580px;
-    
-
 }
 
 .five_container_right_middle_right{
     width: 100px;
     height:580px;
-
-
 }
 
 .five_container_right_bottom{
@@ -1136,7 +1127,7 @@ header nav a:nth-child(3){
 
 .intro5_subtitle_text{
     font-family: 'Krub';
-    max-width: 380px;
+    max-width: 381px;
     margin-left: 80px;
     margin-top: 22px;
     font-size:15px;
@@ -1159,17 +1150,17 @@ header nav a:nth-child(3){
     justify-content: center;
     align-items: center;
     align-self: flex-start;
-  }
+}
 
 .intro5_readbutton p{
     font-family: 'Oswald', bold;
     font-weight: 500;
     font-size:medium;
     word-spacing: 2px;
-  }
+}
 
 
-  .fifth_block .circle_fifth{
+.fifth_block .circle_fifth{
     z-index: 1;
     position: absolute;
     background-color: #a460f9;
@@ -1222,7 +1213,6 @@ header nav a:nth-child(3){
     margin-left: 50px;
     
 }
-
 
 .fifth_block_side_text{
     width: 100px;
@@ -1629,17 +1619,12 @@ header nav a:nth-child(3){
     margin-left: 136px;
     cursor: pointer;
 }
-.container_high_left_images{
-    display: flex;
-    height: 235px;
-    width: 720px;
-}
 
 /* ----------------------------------------FOOTER--------------------------------------------- */
 
 footer{
     background-color: #8c6eca;
-    margin-top: 2673px;
+    margin-top: 1282px;
     height: 741px;
     display: flex;
     justify-content: center;

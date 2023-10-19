@@ -1738,6 +1738,7 @@ input[type = button]{
     font-weight: 700;
     letter-spacing: 1.2px;
     padding-bottom: 1px;
+    cursor: pointer;
 }
 input[type = button]:hover{
     box-shadow: 0px 0px 5px 2px #a460f9;

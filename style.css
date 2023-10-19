@@ -765,384 +765,6 @@ header nav a:nth-child(3){
     
 }
 
-/* -----------------------------SIXTH BLOCK---------------------------------------- */
-
-.sixth_container{
-    display: flex;
-    max-width: 1346px;
-    height: 604px;
-    margin-left: 45px;
-    margin-top: 2009px;
-    justify-content: space-between;
-}
-.left_section{
-    box-sizing: border-box;
-    height: 604px;
-    padding-top:73px;
-    padding-left: 5px;
-    margin-right: 60px;
-    position: relative;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    justify-content: center;
-}
-.right_section{
-    box-sizing: border-box;
-    height: 604px;
-    padding-top:95px;
-    margin-left: 60px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;    
-}
-.right_section .arrow_down_6_block{
-    cursor: pointer;
-    transform: rotate(180deg);
-    margin-top: 28px;
-    margin-right: 13px;
-}
-.right_section .rotated-text{
-    text-align: start;
-}
-.rotated-text{
-    text-align: end;
-    font-family: "Krub";
-    color: rgb(241, 241, 241);
-    font-weight: 900;
-    font-size: 20px;
-    letter-spacing: 1px;
-    writing-mode: vertical-rl; 
-    transform: rotate(180deg); 
-}
-.arrow_down_6_block{
-    cursor: pointer;
-    margin-bottom: 23px;
-    margin-left: 15px;
-}
-.middle_section{
-    cursor: pointer;
-}
-.man{
-    position: relative;
-    display: inline-block;
-}
-.man img{
-    max-width: 100%;
-}
-.video-overlay{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-}
-.man:hover .video-overlay{
-    display: block;
-}
-.video-overlay video{
-    width: 100%;
-    height: 100%;
-}
-
-/* -----------------------------SEVENTH BLOCK---------------------------------------- */
-
-.seventh_container{
-    display: flex;
-    max-width: 1145px;
-    height: 705px;
-    left: 137px;
-    top: 155px;
-    position: relative;
-}
-.upper_container {
-    display: flex;
-    max-width: 1144px;
-    height: 130px;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.big_text{
-    font-size: 95px;
-    font-family: "Krub";
-    font-weight: 900;
-    justify-content: center;
-    left: 450px;
-    margin-top: -23px;
-    text-transform: uppercase;
-    letter-spacing: 1.7px;
-    line-height: 1.2;
-    word-spacing: 10px;
-    position: absolute;
-}
-.small_text{
-    width: 1000px;
-    font-size: 41px;
-    font-family: "Krub";
-    letter-spacing: 4.7px;
-    color: rgb(170, 132, 249);
-    line-height: 1.2;
-    position: absolute;
-    left: 442px;
-    top: 80px;
-}
-.middle_container{
-    display: flex;
-    max-width: 1144px;
-    height: 544px;
-    position: absolute;
-    top: 132px;
-    left: 0px;
-    right: 0px;
-}
-.left_person, .middle_person, .right_person{
-    flex: 1;
-    position: relative;
-}
-.left_person img{
-    margin-top: 70px;
-    margin-left: 52px;
-}
-.left_person .up_quote img{
-    margin-top: 14px;
-    margin-left: 2px;
-}
-.left_person .low_quote img{
-    margin-top: 74px;
-    margin-left: 250px;
-}
-.left_person .stars img{
-    margin-top: 67px;
-    margin-left: 65px;
-}
-.middle_person img{
-    margin-top: 72px;
-    margin-left: 119px;
-}
-.middle_person .up_quote img{
-    margin-top: 13px;
-    margin-left: 69px;
-}
-.middle_person .low_quote img{
-    margin-top: 74px;
-    margin-left: 316px;
-}
-.middle_person .stars img{
-    margin-top: 70px;
-    margin-left: 131px;
-}
-.right_person img{
-    margin-top: 74px;
-    margin-left: 173px;
-}
-.right_person .up_quote img{
-    margin-top: 14px;
-    margin-left: 118px;
-}
-.right_person .low_quote img{
-    margin-top: 74px;
-    margin-left: 364px;
-}
-.right_person .stars img{
-    margin-top: 70px;
-    margin-left: 179px;
-}
-.laura_smith {
-    font-size: 18px;
-    font-family: "Krub";
-    letter-spacing: 1px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.429;
-    position: absolute;
-    margin-top: 14px;
-    margin-left: 77px;
-}
-.jhon_smith {
-    font-size: 18px;
-    font-family: "Krub";
-    letter-spacing: 1px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.429;
-    position: absolute;
-    margin-top: 17px;
-    margin-left: 144px;
-    word-spacing: 6px;
-}
-.sara_smith {
-    font-size: 18px;
-    font-family: "Krub";
-    letter-spacing: 1px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.429;
-    position: absolute;
-    margin-top: 16px;
-    margin-left: 193px;
-    word-spacing: 6px;
-}
-.left_person .first_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.789px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 25px;
-    margin-top: 114px;
-}
-.middle_person .first_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.5px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 92px;
-    margin-top: 117px;
-    word-spacing: 1.9px;
-}
-.right_person .first_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.4px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 141px;
-    margin-top: 117px;
-    word-spacing: 2.4px;
-}
-.left_person .second_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.31px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 26px;
-    margin-top: 138px;
-    word-spacing: 6.87px
-}
-.middle_person .second_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.279px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 92px;
-    margin-top: 141px;
-    word-spacing: 7.7px;
-}
-.right_person .second_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.4px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 141px;
-    margin-top: 141px;
-    word-spacing: 6.5px;
-}
-.left_person .third_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.4px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 26px;
-    margin-top: 162px;
-    word-spacing: 11.2px;
-}
-.middle_person .third_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.4px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 92px;
-    margin-top: 164px;
-    word-spacing: 11.2px;
-}
-.right_person .third_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.4px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 141px;
-    margin-top: 165px;
-    word-spacing: 11.2px;
-}
-.left_person .fourth_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.39px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 39px;
-    margin-top: 186px;
-    word-spacing: 0.1px;
-}
-.middle_person .fourth_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.4px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 105px;
-    margin-top: 189px;
-    word-spacing: 0.1px;
-}
-.right_person .fourth_row{
-    font-size: 13px;
-    font-family: "Krub";
-    letter-spacing: 0.36px;
-    font-weight: bold;
-    justify-content: center;
-    position: absolute;
-    margin-left: 154px;
-    margin-top: 188.7px;
-    word-spacing: 0.1px;
-}
-.lower_container {
-    display: flex;
-    max-width: 1144px;
-    height: 27px;
-    position: absolute;
-    top: 677px;
-    left: 0px;
-    right: 0px;
-}
-.lower_container img:first-child{
-    margin-top: 2px;
-    margin-left: 456px;
-    cursor: pointer;
-}
-.lower_container img:last-child{
-    margin-top: 2px;
-    margin-left: 136px;
-    cursor: pointer;
-.container_high_left_images{
-    display: flex;
-    height: 235px;
-    width: 720px;
-}
-
 .oval_one{
     margin-top: 26px;
     height: 210px;
@@ -1632,6 +1254,385 @@ header nav a:nth-child(3){
     margin-top: 6px;
     display: flex;
     justify-content: flex-start;    
+}
+
+/* -----------------------------SIXTH BLOCK---------------------------------------- */
+
+.sixth_container{
+    display: flex;
+    max-width: 1346px;
+    height: 604px;
+    margin-left: 45px;
+    margin-top: 82px;
+    justify-content: space-between;
+}
+.left_section{
+    box-sizing: border-box;
+    height: 604px;
+    padding-top:73px;
+    padding-left: 5px;
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+}
+.right_section{
+    box-sizing: border-box;
+    height: 604px;
+    padding-top:95px;
+    margin-left: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;    
+}
+.right_section .arrow_down_6_block{
+    cursor: pointer;
+    transform: rotate(180deg);
+    margin-top: 28px;
+    margin-right: 13px;
+}
+.right_section .rotated-text{
+    text-align: start;
+}
+.rotated-text{
+    text-align: end;
+    font-family: "Krub";
+    color: rgb(241, 241, 241);
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+}
+.arrow_down_6_block{
+    cursor: pointer;
+    margin-bottom: 23px;
+    margin-left: 15px;
+}
+.middle_section{
+    cursor: pointer;
+}
+.man{
+    position: relative;
+    display: inline-block;
+}
+.man img{
+    max-width: 100%;
+}
+.video-overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.man:hover .video-overlay{
+    display: block;
+}
+.video-overlay video{
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------------------------SEVENTH BLOCK---------------------------------------- */
+
+.seventh_container{
+    display: flex;
+    max-width: 1145px;
+    height: 705px;
+    left: 137px;
+    top: 155px;
+    position: relative;
+}
+.upper_container {
+    display: flex;
+    max-width: 1144px;
+    height: 130px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.big_text{
+    font-size: 95px;
+    font-family: "Krub";
+    font-weight: 900;
+    justify-content: center;
+    left: 450px;
+    margin-top: -23px;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    line-height: 1.2;
+    word-spacing: 10px;
+    position: absolute;
+}
+.small_text{
+    width: 1000px;
+    font-size: 41px;
+    font-family: "Krub";
+    letter-spacing: 4.7px;
+    color: rgb(170, 132, 249);
+    line-height: 1.2;
+    position: absolute;
+    left: 442px;
+    top: 80px;
+}
+.middle_container{
+    display: flex;
+    max-width: 1144px;
+    height: 544px;
+    position: absolute;
+    top: 132px;
+    left: 0px;
+    right: 0px;
+}
+.left_person, .middle_person, .right_person{
+    flex: 1;
+    position: relative;
+}
+.left_person img{
+    margin-top: 70px;
+    margin-left: 52px;
+}
+.left_person .up_quote img{
+    margin-top: 14px;
+    margin-left: 2px;
+}
+.left_person .low_quote img{
+    margin-top: 74px;
+    margin-left: 250px;
+}
+.left_person .stars img{
+    margin-top: 67px;
+    margin-left: 65px;
+}
+.middle_person img{
+    margin-top: 72px;
+    margin-left: 119px;
+}
+.middle_person .up_quote img{
+    margin-top: 13px;
+    margin-left: 69px;
+}
+.middle_person .low_quote img{
+    margin-top: 74px;
+    margin-left: 316px;
+}
+.middle_person .stars img{
+    margin-top: 70px;
+    margin-left: 131px;
+}
+.right_person img{
+    margin-top: 74px;
+    margin-left: 173px;
+}
+.right_person .up_quote img{
+    margin-top: 14px;
+    margin-left: 118px;
+}
+.right_person .low_quote img{
+    margin-top: 74px;
+    margin-left: 364px;
+}
+.right_person .stars img{
+    margin-top: 70px;
+    margin-left: 179px;
+}
+.laura_smith {
+    font-size: 18px;
+    font-family: "Krub";
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.429;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 77px;
+}
+.jhon_smith {
+    font-size: 18px;
+    font-family: "Krub";
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.429;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 144px;
+    word-spacing: 6px;
+}
+.sara_smith {
+    font-size: 18px;
+    font-family: "Krub";
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.429;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 193px;
+    word-spacing: 6px;
+}
+.left_person .first_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.789px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 114px;
+}
+.middle_person .first_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 117px;
+    word-spacing: 1.9px;
+}
+.right_person .first_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 141px;
+    margin-top: 117px;
+    word-spacing: 2.4px;
+}
+.left_person .second_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.31px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 138px;
+    word-spacing: 6.87px
+}
+.middle_person .second_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.279px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 141px;
+    word-spacing: 7.7px;
+}
+.right_person .second_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 141px;
+    margin-top: 141px;
+    word-spacing: 6.5px;
+}
+.left_person .third_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 162px;
+    word-spacing: 11.2px;
+}
+.middle_person .third_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 164px;
+    word-spacing: 11.2px;
+}
+.right_person .third_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 141px;
+    margin-top: 165px;
+    word-spacing: 11.2px;
+}
+.left_person .fourth_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.39px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 39px;
+    margin-top: 186px;
+    word-spacing: 0.1px;
+}
+.middle_person .fourth_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 189px;
+    word-spacing: 0.1px;
+}
+.right_person .fourth_row{
+    font-size: 13px;
+    font-family: "Krub";
+    letter-spacing: 0.36px;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    margin-left: 154px;
+    margin-top: 188.7px;
+    word-spacing: 0.1px;
+}
+.lower_container {
+    display: flex;
+    max-width: 1144px;
+    height: 27px;
+    position: absolute;
+    top: 677px;
+    left: 0px;
+    right: 0px;
+}
+.lower_container img:first-child{
+    margin-top: 2px;
+    margin-left: 456px;
+    cursor: pointer;
+}
+.lower_container img:last-child{
+    margin-top: 2px;
+    margin-left: 136px;
+    cursor: pointer;
+}
+.container_high_left_images{
+    display: flex;
+    height: 235px;
+    width: 720px;
 }
 
 /* ----------------------------------------FOOTER--------------------------------------------- */

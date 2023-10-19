@@ -889,7 +889,9 @@ header nav a:nth-child(3){
     display: flex;
     justify-content: end;
 }
-
+.container_button_left a{
+    text-decoration: none;
+}
 .intro4_readbutton{
     display: flex;
     align-content: flex-start;
@@ -903,7 +905,9 @@ header nav a:nth-child(3){
     align-items: center;
     align-self: flex-start;
   }
-
+.intro4_readbutton:hover{
+    box-shadow: 0px 0px 5px 2px #aa84f9;
+}
 .intro4_readbutton p{
     font-family: 'Oswald', bold;
     font-weight: 500;
@@ -940,7 +944,6 @@ header nav a:nth-child(3){
     justify-content: center;
     align-items: center;
 }
-
 
 .container_right_middle .intro4_bigimage{
     margin-top: 35px;
@@ -1081,7 +1084,9 @@ header nav a:nth-child(3){
     height:580px;
     display: flex;
 }
-
+.five_container_right_middle_left a{
+    text-decoration: none;
+}
 .five_container_right_middle_left{
     width: 540px;
     height:580px;
@@ -1149,7 +1154,9 @@ header nav a:nth-child(3){
     align-items: center;
     align-self: flex-start;
 }
-
+.intro5_readbutton:hover{
+    box-shadow: 0px 0px 5px 2px #aa84f9;
+}
 .intro5_readbutton p{
     font-family: 'Oswald', bold;
     font-weight: 500;
@@ -1228,6 +1235,7 @@ header nav a:nth-child(3){
     letter-spacing: 10px;
     color: #252525;
     margin-left: -42px;
+    user-select: none;
 }
 
 .five_container_right_bottom_left{
@@ -1329,13 +1337,15 @@ header nav a:nth-child(3){
 }
 
 /* -----------------------------SEVENTH BLOCK---------------------------------------- */
-
+.seventh_block{
+    height: 949.6px;
+}
 .seventh_container{
     display: flex;
     max-width: 1145px;
-    height: 705px;
+    height: 805px;
     left: 137px;
-    top: 155px;
+    top: 154px;
     position: relative;
 }
 .upper_container {
@@ -1618,11 +1628,125 @@ header nav a:nth-child(3){
     cursor: pointer;
 }
 
+/* ----------------------------------------EIGHT BLOCK--------------------------------------------- */
+
+.eight_block{
+    height: 1036px;
+    width: 1440px;
+    display: flex;
+    justify-content: end;
+}
+.eight_block img{
+    margin-top: 33px;
+    height: 1003px;
+    position: absolute;
+    left: -360px;
+}
+.eight_block_right_container{
+    z-index: 1;
+    margin-right: 70px;
+    height: 956px;
+    width: 664px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.subscribe_text{
+    color: #fff;
+    width: 664px;
+    height: 250px;
+    font-family: Krub;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_subscribe{
+    font-size: 46.7px;
+    letter-spacing: 1.55px;
+    font-weight: 700;
+    margin-top: 30.5px;
+    margin-left: 13px;
+}
+
+.item_second_text{
+    font-size: 45px;
+    letter-spacing: 5.2px;
+    font-weight: 400;
+    margin-left: 18px;
+    margin-top: -0.9px;
+    color: #a460f9;
+}
+
+.item_to_lorem{
+    margin-top: 16px;
+    letter-spacing: 0.58px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.item_sed{
+    margin-top: 7.5px;
+    font-weight: 600;
+    letter-spacing: 0.57px;
+    margin-left: 10.5px;
+}
+.inputs{
+    height: 572px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea{
+    width: 457px;
+    height: 41px;
+    border: 3px solid #a460f9; 
+    color:#6a6a6a;
+    resize: none;
+    outline: none;
+    margin-left: 12px;
+    font-weight: 700;
+    font-family: Krub;
+    font-size: 17px;
+    padding-left: 40px;
+    padding: 26px 10px 0 40px;
+    letter-spacing: 3px;
+    background: transparent;
+}
+.inputs textarea:first-child{
+    margin-top: 60px;
+}
+.inputs textarea:nth-child(2){
+    height: 45px;
+    padding-top: 22px;
+    margin-top: 57px;
+}
+.inputs textarea:last-child{
+    height: 149px;
+    margin-top: 47px;
+}
+input[type = button]{
+    color:#fff;
+    width: 170px;
+    height: 64px;
+    margin: 0 0 70px 13px;
+    background-color: #a460f9;
+    font-family: Oswald;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    padding-bottom: 1px;
+}
+input[type = button]:hover{
+    box-shadow: 0px 0px 5px 2px #a460f9;
+}
 /* ----------------------------------------FOOTER--------------------------------------------- */
 
 footer{
     background-color: #8c6eca;
-    margin-top: 1282px;
+    margin-top: 1px;
     height: 741px;
     display: flex;
     justify-content: center;
@@ -1636,14 +1760,14 @@ footer{
 }
 .footer_left_container{
     width: 338px;
+    height: 330px;
     display: flex;
     align-items: center;
+    align-self: center;
 }
 .footer_links{
     margin-top: 48px;
     height: 300px;
-    display: flex;
-    flex-direction: column;
 }
 .footer_links_title{
     width: 117px;
@@ -1662,18 +1786,43 @@ footer{
 }
 .footer_links_title hr{
     margin-top: 5.5px;
-    margin-bottom: 9px;
+    margin-bottom: 23px;
 }
 .footer_links a{
     color: #fff;
-    height: 42px;
+    position: relative;
     text-decoration: none;
     font-weight: 500;
     font-size: 25px;
-    margin: 2px 0 0 1px;
+    margin-left: 1px;
+    line-height: 43.7px;
+}
+.footer_links a:after{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    bottom: 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    bottom: -3px;
+    content: "";
+    transition: width 0.1s ease;
+}
+.footer_links a:hover:after,
+.footer_links a:focus:after{
+    width: 100%;
 }
 .footer_links a:nth-child(2){
-   margin-top: 0px;
+    letter-spacing: -0.3px;
+}
+.footer_links a:nth-child(8){
+    letter-spacing: 1px;
+    word-spacing: -5px;
+}
+.footer_links a:last-child{
+    word-spacing: -3px;
 }
 .footer_middle_container{
     width: 335px;
@@ -1689,11 +1838,13 @@ footer{
     margin-left: 0.5px;
 }
 .footer_middle_container .footer_links a:nth-child(4){
-    letter-spacing: 2px;
-    word-spacing: -3px;
+    letter-spacing: 0.4px;
 }
-.footer_middle_container .footer_links a:nth-child(5){
+.footer_middle_container .footer_links a:nth-child(6){
     letter-spacing: 1.5px;
+}
+.footer_middle_container .footer_links a:nth-child(8){
+    letter-spacing: 0.8px;
 }
 .footer_right_container{
     width: 653px;
@@ -1737,11 +1888,19 @@ footer{
 .footer_right_container .social .circle{
     height: 65px;
     width: 65px;
-    background-color: #f1f1f1;
+    background-color: #e6e6e6;
     border-radius: 50%;
+    color: #8c6eca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_right_container .social .circle:hover{
+    box-shadow: 0px 0px 5px 2px #e6e6e6;
 }
 .footer_right_container .social a{
     margin-top: 1px;
+    text-decoration: none;
 }
 .footer_right_container .social a:nth-child(2){
     margin-left: 45.3px;
@@ -1752,66 +1911,22 @@ footer{
 .footer_right_container .social a:last-child{
     margin-left: 67px;
 }
-.eight_block{
-    margin-top: 3565px;
-    height: 1036px;
-    width: 1440px;
-    display: flex;
-    justify-content: end;
+.fa-facebook-f {
+    font-size: 24px;
 }
-.eight_block img{
-    margin-top: 33px;
-    height: 1003px;
-    position: absolute;
-    left: -360px;
+.fa-youtube {
+    font-size: 26px;
 }
-.eight_block_right_container{
-    z-index: 1;
-    margin-right: 70px;
-    height: 956px;
-    width: 664px;
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
+.footer_right_container .social a:nth-child(3) .square{
+    background-color: #8c6eca;
+    height: 25px;
+    width: 25px;
+    border-radius: 7px;
 }
-
-.subscribe_text{
-    color: #fff;
-    width: 664px;
-    height: 250px;
-    font-family: Krub;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.item_subscribe{
-    font-size: 46.7px;
-    letter-spacing: 1.55px;
-    font-weight: 700;
-    margin-top: 30.5px;
-    margin-left: 13px;
-}
-
-.item_second_text{
-    font-size: 45px;
-    letter-spacing: 5.2px;
-    font-weight: 400;
-    margin-left: 18px;
-    margin-top: -0.9px;
-    color: #a460f9;
-}
-
-.item_to_lorem{
-    margin-top: 16px;
-    letter-spacing: 0.58px;
-    font-weight: 600;
-    margin-left: 10px;
-}
-
-.item_sed{
-    margin-top: 7.5px;
-    font-weight: 600;
-    letter-spacing: 0.57px;
-    margin-left: 10.5px;
+.fa-instagram {
+    font-size: 31px;
+    color: #e6e6e6;
+    margin-top: -2px;
+    margin-left: -2px;
+    border-color: #e6e6e6;
 }

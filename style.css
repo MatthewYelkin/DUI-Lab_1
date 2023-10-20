@@ -23,7 +23,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: Krub-SemiBold;
+    font-family: Krub;
     src: url(fonts/Krub/Krub-SemiBold.ttf);
     font-weight: 600;
     font-style: normal;
@@ -47,15 +47,10 @@
     font-style: normal;
 }
 
-@counter-style rubick{
-    height: 18px;
-    width: 18px;
-    background-color: #purple;
-}
-
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     width: 1440px;
